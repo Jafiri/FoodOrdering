@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/app_btn_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/appcolor_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/appcolorbar.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/background_categories.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/button_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/cart_card_bg.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/editviewbackground.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/searchbar_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/spalsh_screen.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/white_btn.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/yellow_btn_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/drawable/yellowbar.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_biriyani.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_bowl.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_burger.xml" value="0.16" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_cake.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_cart.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_edit_profile.xml" value="0.21" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_ice_cream.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_kebab.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_mainmenu.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_north.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_pizza.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_roll.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_south.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_tea.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/activity_welcome.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_biriyani.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_categories.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_food_card.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_food_cart.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_foodlist.xml" value="0.21" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_pizza.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/custom_popular.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/FoodOrdering/app/src/main/res/layout/spalsh_screen.xml" value="0.12894736842105264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

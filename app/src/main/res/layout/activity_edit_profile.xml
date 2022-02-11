@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65F1F5AB"
+    tools:context=".Activity.EditProfile">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editprofile_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editprofile_name"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/person" />
+
+    <Button
+        android:id="@+id/editprofile_btn_submit"
+        android:layout_width="156dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="64dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="@+id/editprofile_address"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/editprofile_address" />
+
+    <EditText
+        android:id="@+id/editprofile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/editprofile_phone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editprofile_phone"
+        app:layout_constraintTop_toBottomOf="@+id/editprofile_phone" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editprofile_email"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/editprofile_email"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editprofile_address"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/editprofile_address"
+        app:srcCompat="@drawable/location" />
+
+    <EditText
+        android:id="@+id/editprofile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editprofile_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/editprofile_email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editprofile_email"
+        app:layout_constraintTop_toBottomOf="@+id/editprofile_email" />
+
+    <EditText
+        android:id="@+id/editprofile_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/editprofile_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editprofile_name"
+        app:layout_constraintTop_toBottomOf="@+id/editprofile_name" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editprofile_phone"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/editprofile_phone"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/phone_android" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

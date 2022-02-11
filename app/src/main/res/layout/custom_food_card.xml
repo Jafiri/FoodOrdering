@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/food_lineatlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/food_constraintlayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp">
+
+            <ImageView
+                android:id="@+id/img_food"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/biryaniimg" />
+
+            <TextView
+                android:id="@+id/food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                android:text="Mutton Biriyani"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/img_food"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/food_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:text="₹ 110"
+                android:textColor="#131313"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/food_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/food_title"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/food_description"
+                android:layout_width="272dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="5dp"
+                android:text="Mutton biryani is a classic dish made by layering rice over slow cooked mutton gravy."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/food_title"
+                app:layout_constraintTop_toBottomOf="@+id/food_title" />
+
+            <TextView
+                android:id="@+id/food_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="20 Mins"
+                android:textColor="#020202"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/food_description" />
+
+            <TextView
+                android:id="@+id/food_calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="325 calories"
+                android:textColor="#020202"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/food_description" />
+
+            <TextView
+                android:id="@+id/food_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:drawablePadding="5dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#020202"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/food_description" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="26dp"
+                android:layout_height="22dp"
+                app:layout_constraintStart_toStartOf="@+id/food_description"
+                app:layout_constraintTop_toBottomOf="@+id/food_description"
+                app:srcCompat="@drawable/time" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="26dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="60dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toTopOf="@+id/imageView7"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/fire" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="26dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="80dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="@+id/imageView8"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/img_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.63"
+                app:layout_constraintStart_toEndOf="@+id/food_star"
+                app:layout_constraintTop_toBottomOf="@+id/food_fee"
+                app:srcCompat="@drawable/trolleyicon" />
+
+            <ImageView
+                android:id="@+id/img_cartdone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.63"
+                app:layout_constraintStart_toEndOf="@+id/food_star"
+                app:layout_constraintTop_toBottomOf="@+id/food_fee"
+                app:srcCompat="@drawable/trolleyicondone"
+                android:visibility="invisible"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
