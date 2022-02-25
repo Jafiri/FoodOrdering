@@ -5,14 +5,14 @@ This is completely a static app. I desgin this with what i have learnt throught 
 
 Modules coverd in this Application 
 
-      -> User Authentication with email and password. 
-  -> User Authentication with Google Account.
-  -> Updation of User profile Details from In-App
-  -> Firebase Database is used in backend Support for data storage 
-  -> Can select and unselect an item of wish and add it to the cart.
-  -> In cart activity Increment or Decrement of item is done 
-  -> Price Calculation is also been implemented Along with  increment/decrement, tax and delivery charge 
-  -> Sign Out option is also added under Setting Screen.
+       -> User Authentication with email and password. 
+       -> User Authentication with Google Account.
+       -> Updation of User profile Details from In-App
+       -> Firebase Database is used in backend Support for data storage 
+       -> Can select and unselect an item of wish and add it to the cart.
+       -> In cart activity Increment or Decrement of item is done 
+       -> Price Calculation is also been implemented Along with  increment/decrement, tax and delivery charge 
+       -> Sign Out option is also added under Setting Screen.
 
       
       
