@@ -4,16 +4,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:foregroundGravity="center"
     app:cardCornerRadius="2dp"
     app:cardElevation="3dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    app:layout_anchorGravity="center">
 
     <LinearLayout
         android:id="@+id/food_lineatlayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -156,12 +160,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="52dp"
+                android:visibility="invisible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.63"
                 app:layout_constraintStart_toEndOf="@+id/food_star"
                 app:layout_constraintTop_toBottomOf="@+id/food_fee"
-                app:srcCompat="@drawable/trolleyicondone"
-                android:visibility="invisible"/>
+                app:srcCompat="@drawable/trolleyicondone" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

@@ -90,7 +90,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_biriyani"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
         </LinearLayout>
     </ScrollView>
 
